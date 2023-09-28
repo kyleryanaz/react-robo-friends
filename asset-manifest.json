@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-robo-friends/static/css/main.a07fc098.css",
+    "main.js": "/react-robo-friends/static/js/main.d18798f0.js",
+    "static/js/787.79c1f081.chunk.js": "/react-robo-friends/static/js/787.79c1f081.chunk.js",
+    "static/media/PixelifySans-Regular.ttf": "/react-robo-friends/static/media/PixelifySans-Regular.78dfe66b4f31904f6ee9.ttf",
+    "index.html": "/react-robo-friends/index.html",
+    "main.a07fc098.css.map": "/react-robo-friends/static/css/main.a07fc098.css.map",
+    "main.d18798f0.js.map": "/react-robo-friends/static/js/main.d18798f0.js.map",
+    "787.79c1f081.chunk.js.map": "/react-robo-friends/static/js/787.79c1f081.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a07fc098.css",
+    "static/js/main.d18798f0.js"
+  ]
+}
