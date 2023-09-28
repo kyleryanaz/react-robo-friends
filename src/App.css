@@ -10,3 +10,29 @@ h1 {
   font-weight: 200;
   color: #0ccac4;
 }
+
+::-webkit-scrollbar {
+  width: 1em; /* affects vertical only */
+  height: 1em; /* affects horizontal only */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(7,27,82,1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,128,128,1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 20% / .5);
+}
+
+/* alt for browser that don't support webkit-scrollbar (ex. FireFox) */
+@supports (scrollbar-color: rgba(0,128,128,1) rgba(7,27,82,1)) {
+  * {
+    /* first color: foreground, second color: background */
+    scrollbar-color: rgba(0,128,128,1) rgba(7,27,82,1);
+    scrollbar-width: auto; /*auto, none, thin*/
+  }
+}
