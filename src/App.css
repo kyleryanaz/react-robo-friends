@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PixelifySans-Regular';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./PixelifySans-Regular.ttf');
+}
+
+h1 {
+  font-family: 'PixelifySans-Regular';
+  font-weight: 200;
+  color: #0ccac4;
+}
